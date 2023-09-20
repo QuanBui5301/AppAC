@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".DetailFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnXYtem"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Biểu đồ nhiệt"
+                android:backgroundTint="#6670036D"
+                />
+            <Button
+                android:id="@+id/btnXYhum"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Biểu đồ độ ẩm"
+                android:backgroundTint="#666B1275"
+                />
+
+            <Button
+                android:id="@+id/btnXYdus"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Biểu đồ lượng bụi"
+                android:backgroundTint="#664C1275"
+                />
+
+            <Button
+                android:id="@+id/btnXYcurrent"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Biểu đồ theo dõi điện"
+                android:backgroundTint="#6603A8B6"
+
+                />
+
+            <Button
+                android:id="@+id/btnXYpower"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Biểu đồ điện năng tiêu thụ"
+                android:backgroundTint="#6631CFDD"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
